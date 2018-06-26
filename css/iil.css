@@ -262,11 +262,9 @@ a.nav-link {
 
 .post-content {
   padding:1em;
-  /*
   padding-bottom:3em;
   background-color: #f2f7ff;
   color : #111;
-  */
 }
 
 .section-title {
@@ -490,6 +488,8 @@ a.btn-view-more {
 
 
 
+
+
 .nav-tabs .nav-link {
   font-size:1.2em;
   /*padding:0.6rem 2rem;*/
@@ -501,9 +501,6 @@ a.btn-view-more {
   border-bottom:1px solid #eee;
 }
 
-#management-tabs .nav-tabs .nav-link {
-  width: auto;
-}
 .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:hover  {
   border:none;
   border-bottom:1px solid white;
