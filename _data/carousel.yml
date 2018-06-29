@@ -14,14 +14,13 @@
   image: carousel4_bg.jpg
   message: >
    About courses 
-  link: Teaching
+  link: teaching
 
 - title: MS/PhD Admissions Open Now!
   image: carousel2_bg.jpg
   message: >
-    MS / PhD applications are now being accepted, for both the January and July semesters. Admissions are
-    also open for the Interdisciplinary MS / PhD programmes in data science.
-  link: Join Us
+    MS / PhD applications are now being accepted, for both the January and July semesters. Admissions are also open for the Interdisciplinary MS / PhD programmes in data science.
+  link: joinUs
   
 # - title: Reinforcement Learning 
 #   image: carousel2_bg.jpg
