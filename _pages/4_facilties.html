@@ -1,0 +1,54 @@
+---
+layout: default
+title: Facilties
+permalink: facilties
+---
+
+<section class="jumbotron" id="education-header">
+  <div class="bg-img">
+    <img src="images/carousel3_bg.jpg" />
+  </div>
+  <div class="container jumbotron-content text-center">
+    <h1 class="jumbotron-heading">Facilties</h1>
+    <p class="lead" >
+       Here is a list of various experimental facilities available within TDCE
+    </p>
+  </div>
+</section>
+
+
+<div class="container">  
+
+  <!-- <hr class="featurette-divider"> -->
+  <div class="row">
+
+  <div class="col-sm-7">
+  <h2 class="section-title">In-house</h2>  
+  {% for course in site.nptel %} 
+    <div class="card project-card drop-shadow col-sm-12 mb-5">
+     <div class="card-body">
+       <h3 class="card-title"><a href="{{ course.link }}">{{ course.title }}</a></h3>
+       <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+       <p class="card-text">{{ course.description }}</p>
+     </div>
+   </div>
+  {% endfor %}
+  </div>
+
+  <div class="col-sm-5 ">
+  <h2 class="section-title">Shared</h2>
+
+  {% for course in site.data.iitm_electives %} 
+    <div class="card elective-card  col-sm-12 mb-1">
+     <div class="card-body">
+       <h4 class="card-title">{{ course.num }} : {{ course.title }}</h4>
+       <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+     </div>
+   </div>
+  {% endfor %}
+  </div>
+
+
+  </div>
+</div>
+
