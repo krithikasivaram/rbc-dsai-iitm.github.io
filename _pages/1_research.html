@@ -39,10 +39,11 @@ permalink: research
     <li class="nav-item">
       <a class="nav-link text-uppercase" href="#rs-topic-applied">Applied Research</a>
     </li>
-    <li class="nav-item">
+   <!--
+	 <li class="nav-item">
       <a class="nav-link  text-uppercase" href="#rs-topic-projects">Projects</a>
     </li>
-    
+    -->
   </ul>
 </div>
 <div class="col-sm-10" >
@@ -71,11 +72,14 @@ permalink: research
           </div>
         </div>
         <div class="row featurette">
-          <div class="col-md-7 {{content_order | prepend: 'order-md-'}}  ">
+          <div class="col-md-6 {{content_order | prepend: 'order-md-'}}  ">
             <p class="lead">{{ topic.description }}</p>
+            <h5> View more <a href="{{topic.more}}">here</a></h5> 
+			<!-- <p class="lead" href="{{ topic.more }}"> here </p> -->
           </div>
-          <div class="col-md-5 {{image_order | prepend: 'order-md-'}} ">
+          <div class="col-md-6 {{image_order | prepend: 'order-md-'}} ">
             <img class="featurette-image img-fluid mx-auto " src="{{topic.image}}" alt="{{ topic.title}}">
+			<h6> <a href="{{topic.publication}}"> {{topic.cite}} </a> </h6> 
           </div>
         </div>
       {% endif %}
@@ -117,10 +121,7 @@ permalink: research
 
 
 
-    <hr class="featurette-divider" id="rs-topic-projects">
-
-
-
+<!--    <hr class="featurette-divider" id="rs-topic-projects">
     <hr class="featurette-divider " >
 
     <div class="row">
@@ -140,7 +141,7 @@ permalink: research
     </div>
     {% endfor %}
     </div>
-
+-->
   </div>
 
 </div>

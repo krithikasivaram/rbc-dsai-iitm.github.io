@@ -34,6 +34,20 @@ permalink: teaching
      </div>
    </div>
   {% endfor %}
+ 
+ 
+ <h2 class="section-title">NPTEL courses</h2>
+ 
+   {% for course in site.data.nptel %} 
+     <div class="card elective-card  col-sm-12 mb-1">
+      <div class="card-body">
+      <h3 class="card-title"><a href="{{ course.link }}">{{ course.title }}</a></h3>
+        <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
+ <!--       <h4 class="card-subtitle mb-2">Typically offered in {{ course.term }} semester  </h4> #krithika -->
+      </div>
+    </div>
+   {% endfor %}
+   
   </div>
 
   <div class="col-sm-6 ">
@@ -50,14 +64,13 @@ permalink: teaching
    </div>
   {% endfor %}
   
-  <h2 class="section-title">NPTEL courses</h2>
+  <h2 class="section-title">More courses ...</h2>
   
-    {% for course in site.data.nptel %} 
+    {% for course in site.data.other_courses %} 
       <div class="card elective-card  col-sm-12 mb-1">
        <div class="card-body">
        <h3 class="card-title"><a href="{{ course.link }}">{{ course.title }}</a></h3>
          <h4 class="card-subtitle mb-2">{{ course.instructor }}</h4>
-  <!--       <h4 class="card-subtitle mb-2">Typically offered in {{ course.term }} semester  </h4> #krithika -->
        </div>
      </div>
     {% endfor %}

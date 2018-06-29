@@ -15,3 +15,5 @@ Core: _data/core_courses.yml
 - Tabs on main page: _pages/
 
 - to increase number of bullet images on carousel: index.html
+
+- Facilities: _data/facilities.yml
