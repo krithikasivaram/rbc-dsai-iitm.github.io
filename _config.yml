@@ -7,7 +7,7 @@ description: >
 
 timezone: "Asia/Kolkata"
   
-baseurl: "https://krithikasivaram.github.io/tdce-iitm.github.io" 
+baseurl: "/tdce-iitm.github.io" 
 url    : ""
 
 include: ['_pages']
