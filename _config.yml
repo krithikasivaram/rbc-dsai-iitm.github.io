@@ -19,8 +19,8 @@ collections:
   project:
   research:
   members:
-    permalink: /:collection/:path/
-    output: true
+  permalink: /:collection/:path/
+  output: true
 
 
 author:

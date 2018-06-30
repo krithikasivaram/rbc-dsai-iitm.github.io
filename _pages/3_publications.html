@@ -18,9 +18,11 @@ permalink: publications
                  <button class="sort " data-sort="pub-year"> sort by <strong> Year </strong> </button>
                </div>
           </div>
+
+	<!--#Data comes here - #krithika-->
           <div class="row" >
             <ol class="col-12 publications list" id="publication-list">
-            {% for paper in site.data.publications_sorted %}
+            {% for paper in site.data.publications %}
               <li>
                 <span class="pub-title">{{ paper.title}} </span> 
                 <span class="pub-authors">
