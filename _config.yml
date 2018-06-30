@@ -7,8 +7,13 @@ description: >
 
 timezone: "Asia/Kolkata"
   
+<<<<<<< HEAD
 baseurl: "" 
 url    : "http://example.com"
+=======
+baseurl: "https://krithikasivaram.github.io/tdce-iitm.github.io/" 
+url    : "https://localhost"
+>>>>>>> a2238dfafb74ab713692029fd12d5f9fd7eac298
 
 include: ['_pages']
 
