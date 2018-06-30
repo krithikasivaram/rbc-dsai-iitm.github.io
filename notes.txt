@@ -17,3 +17,6 @@ Core: _data/core_courses.yml
 - to increase number of bullet images on carousel: index.html
 
 - Facilities: _data/facilities.yml
+
+- Publications: Edit bib file, convert to json using
+python convert.py input.bib
