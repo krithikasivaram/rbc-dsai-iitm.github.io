@@ -7,21 +7,21 @@ description: >
 
 timezone: "Asia/Kolkata"
   
-baseurl: "https://krithikasivaram.github.io/tdce-iitm.github.io" 
-url    : "https://localhost"
+baseurl: "" 
+url    : ""
 
 include: ['_pages']
 
 collections:
   news:
   events:
-  nptel:
   project:
   research:
   members:
   permalink: /:collection/:path/
   output: true
 
+future: true
 
 author:
     name: Krithika Narayanaswamy
